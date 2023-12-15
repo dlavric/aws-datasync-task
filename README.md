@@ -53,7 +53,7 @@ Terraform will perform the following actions:
 
   # aws_datasync_task.example will be updated in-place
   ~ resource "aws_datasync_task" "example" {
-        id                       = "arn:aws:datasync:eu-west-1:323533494701:task/task-0dc2155d059cb16c9"
+        id                       = "arn:aws:datasync:eu-west-1:<account-id>:task/task-0dc2155d059cb16c9"
         name                     = "daniela-datasync-task2"
         tags                     = {}
         # (4 unchanged attributes hidden)
